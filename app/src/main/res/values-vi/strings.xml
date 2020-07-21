@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TravelNote</string>
+    //khi ngôn ngữ thiết bị để vn thì hiện thị
+    <string name="empty_note">Homies chưa có ghi chú nào đâu, Hãy tạo ghi chú ngày hôm nay nào</string>
+</resources>
