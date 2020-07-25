@@ -1,5 +1,30 @@
 <resources>
     <string name="app_name">TravelNote</string>
     //khi ngôn ngữ thiết bị để vn thì hiện thị
+
+    <!-- các hành động -->
+    <string name="common_action_close">Đóng</string>
+    <string name="common_action_open">Lưu</string>
+    <!-- Menu item -->
+    <string name="menu_item_search">Tìm kiếm</string>
+    <string name="menu_item_about_app">Thông Tin Ứng Dụng</string>
+    <string name="menu_item_help">Hướng Dẫn</string>
+    <string name="menu_item_version_app">Phiên Bản</string>
+    <!-- Màn hình chính -->
+    <string name="mainscreen_add_catergory">Thêm chủ đề</string>
+    <string name="mainscreen_add_note">Thêm địa điểm</string>
+    <string name="mainscreen_edit_note">Sửa địa điểm</string>
     <string name="empty_note">Homies chưa có ghi chú nào đâu, Hãy tạo ghi chú ngày hôm nay nào</string>
+    <!-- Màn Hình Note detail  -->
+    <string name="note_detail_share">Chia sẻ</string>
+    <string name="note_detail_delete">Xoá</string>
+    <string name="note_detail_category">Chủ đề</string>
+    <string name="note_detail_note_detail">Chi tiết về địa điểm</string>
+    <string name="note_detail_other_infomation">Thông tin khác</string>
+    <string name="note_detail_map_location">Ví trị bản đồ</string>
+    <string name="note_detail_name_hint">Tên địa điểm </string>
+    <string name="note_detail_note_detail_hint">Mô tả</string>
+    <string name="note_detail_add_note_hint">Ghi chú - Có thể thêm vào sau</string>
+    <string name="note_detail_address_hint">Địa chỉ</string>
+
 </resources>
