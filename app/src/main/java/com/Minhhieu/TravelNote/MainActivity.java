@@ -4,6 +4,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.nfc.Tag;
 import android.os.Bundle;
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.main_actions, menu);
         return super.onCreateOptionsMenu(menu);
     }
-    //thông báo khi chọn button trên action bar
+    //chuyển activity khi chọn button trên action bar
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         if(drawerToggle.onOptionsItemSelected(item)) {
@@ -59,10 +60,12 @@ public class MainActivity extends AppCompatActivity {
                Toast.makeText(this, "Search button selected", Toast.LENGTH_SHORT).show();
                 return true;
            case R.id.about:
-               Toast.makeText(this, "About button selected", Toast.LENGTH_SHORT).show();
-               return true;
+               Intent intent = new Intent(this, ContactActivity.class);
+               startActivity(intent);
+               return  true;
            case R.id.help:
-               Toast.makeText(this,"Help button selected",Toast.LENGTH_SHORT).show();
+               intent = new Intent(this, ContactActivity.class);
+               startActivity(intent);
                return true;
        }
        return super.onOptionsItemSelected(item);
